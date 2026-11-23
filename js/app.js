@@ -64,6 +64,8 @@ async function openScan(){
 }
 
 $('permBtn').addEventListener('click', askCamera);
+// the cross on the scan screen: stop the camera and go back to the first Scan to Watch screen
+$('scanClose').addEventListener('click', () => { stopScan(); overlay('guide', false); phase = 'perm'; show('perm'); });
 
 openPerm();
 window.__hub = { openFestival, FESTIVALS };
