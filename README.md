@@ -21,4 +21,4 @@ run `tools/serve.ps1`, open `http://localhost:8150/tools/make-target.html?build=
 Changes to a video or its look need nothing here.
 
 Phones need HTTPS for the camera (GitHub Pages provides it). `?nogo=1` stays on the found screen instead of redirecting.
-Anatomy sepia theme (`vendor/anatomy/`).
+
