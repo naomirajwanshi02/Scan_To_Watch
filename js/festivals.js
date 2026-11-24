@@ -15,4 +15,4 @@ export const FESTIVALS = [
 ];
 
 // ?from=hub tells the page it was opened from here, so its cross comes back to this scan screen.
-export const openUrl = (f) => f.url + '?from=hub';
+export const openUrl = (f) => f.url + '?from=hub&t=' + Date.now();
