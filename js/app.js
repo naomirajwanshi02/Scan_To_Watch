@@ -16,6 +16,7 @@ function openFestival(f){
   stopScan();
   overlay('guide', false);
   $('foundName').textContent = f.name;
+  $('foundSub').textContent = f.sub;
   
   overlay('found', true);
   try { navigator.vibrate?.(40); } catch { /* no vibration */ }

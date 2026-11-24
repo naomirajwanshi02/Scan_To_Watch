@@ -8,9 +8,9 @@
 const BASE = 'https://naomirajwanshi02.github.io/';
 
 export const FESTIVALS = [
-  { index: 0, id: 'gion', name: 'Gion Matsuri',
+  { index: 0, id: 'gion', name: 'Gion Matsuri', sub: 'Witness the summer festival',
     url: BASE + 'Gion_Matsuri_Video/', picture: BASE + 'Gion_Matsuri_Video/target.png' },
-  { index: 1, id: 'crane', name: 'Paper Crane',
+  { index: 1, id: 'crane', name: 'Origami Paper Crane', sub: 'Fold along to make your own paper crane',
     url: BASE + 'Crane_Video_AR/', picture: BASE + 'Crane_Video_AR/target.png' },
 ];
 
